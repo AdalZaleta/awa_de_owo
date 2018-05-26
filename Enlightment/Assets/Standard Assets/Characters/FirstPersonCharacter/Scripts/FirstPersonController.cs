@@ -45,7 +45,32 @@ namespace UnityStandardAssets.Characters.FirstPerson
 		private bool run = false;
 		private bool canTake;
 		private float pickTime = 3.0f;
+		public bool lit = false;
 		GameObject itemSelected;
+
+		void OnTriggerEnter(Collider _col)
+		{
+			if (_col.gameObject.CompareTag("Light"))
+			{
+				lit = true;
+			}
+		}
+
+		void OnTriggerStay(Collider _col)
+		{
+			if (_col.gameObject.CompareTag("Light") && !lit)
+			{
+				lit = true;
+			}
+		}
+
+		void OnTriggerExit(Collider _col)
+		{
+			if (_col.gameObject.CompareTag("Light"))
+			{
+				lit = false;
+			}
+		}
 
 		public void canPickUp(bool _pick)
 		{

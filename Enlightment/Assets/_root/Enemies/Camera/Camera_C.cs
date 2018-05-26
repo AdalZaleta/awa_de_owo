@@ -6,15 +6,21 @@ namespace TAAI
 {
 	public class Camera_C : MonoBehaviour {
 
-		RaycastHit hit;
-		
-		// Update is called once per frame
-		void Update () {
-			if (Physics.Raycast (transform.position, transform.TransformDirection(Vector3.right), out hit, Mathf.Infinity) && hit.transform.CompareTag("Player")) {
-				Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.right) * hit.distance, Color.yellow);
-				Debug.Log ("Estoy tocando : " + hit.transform.name);
-				Manager_Static.scenManager.LoadScene (3);
+		void OnTriggerEnter(Collider _col)
+		{
+			if (_col.gameObject.CompareTag("Player"))
+			{
+				if (_col.gameObject.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().lit)
+				{
+					Invoke ("Caught", 0.2f);
+					//Manager_Static.scenManager.LoadScene (3);
+				}
 			}
+		}
+
+		void Caught()
+		{
+			Manager_Static.scenManager.LoadScene (3);
 		}
 	}
 }
