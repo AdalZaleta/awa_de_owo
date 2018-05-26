@@ -6,8 +6,13 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD:Assets/Timmy/Materials/Modelos/Pared.mat
+  m_Name: Pared
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+=======
   m_Name: 'Material #263'
   m_Shader: {fileID: 4800000, guid: 9ce107479d11178d11005b9844295342, type: 3}
+>>>>>>> 099f15e3b13095bf676de587ddcf9d6b17dfe146:Assets/Timmy/Materials/Material #263.mat
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
