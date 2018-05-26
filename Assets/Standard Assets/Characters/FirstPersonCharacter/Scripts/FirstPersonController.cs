@@ -50,17 +50,26 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
 		void OnTriggerEnter(Collider _col)
 		{
-			if (_col.gameObject.CompareTag("Light"))
-			{
+			if (_col.gameObject.CompareTag ("Light") && _col.gameObject.GetComponent<Light> ().enabled) {
 				lit = true;
-			}
+			} else
+				lit = false;
 		}
 
 		void OnTriggerStay(Collider _col)
 		{
-			if (_col.gameObject.CompareTag("Light") && !lit)
+			if (_col.gameObject.CompareTag ("Light") && !lit) {
+				if (_col.gameObject.GetComponent<Light> ().enabled) {
+					lit = enabled;
+				} else
+					lit = false;
+			}
+			if (_col.gameObject.CompareTag("Light") && lit)
 			{
-				lit = true;
+				if (!_col.gameObject.GetComponent<Light>().enabled)
+				{
+					lit = false;
+				}
 			}
 		}
 
