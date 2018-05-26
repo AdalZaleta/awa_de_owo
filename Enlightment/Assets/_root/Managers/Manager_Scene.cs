@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace FPSBoys
+namespace TAAI
 {
 	public class Manager_Scene : MonoBehaviour {
 
