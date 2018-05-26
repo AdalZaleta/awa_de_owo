@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 11400000}
   - component: {fileID: 5400000}
   - component: {fileID: 8200000}
-  - component: {fileID: 114528940260483452}
+  - component: {fileID: 114936071151341606}
   m_Layer: 0
   m_Name: FPSController
   m_TagString: Player
@@ -380,7 +380,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4251638206420694}
-  - component: {fileID: 114936071151341606}
   m_Layer: 0
   m_Name: Weapons
   m_TagString: Untagged
@@ -531,7 +530,7 @@ MonoBehaviour:
   anim: {fileID: 0}
 --- !u!114 &114936071151341606
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
