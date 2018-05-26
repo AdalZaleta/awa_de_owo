@@ -6,6 +6,7 @@ TagManager:
   tags:
   - pickUp
   - Switch
+  - Light
   layers:
   - Default
   - TransparentFX

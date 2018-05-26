@@ -36,7 +36,7 @@ namespace TAAI
 
 		// Update is called once per frame
 		void Update () {
-			// Mouse Testing Controls
+			/*/ Mouse & Keyboard Testing Controls
 			if (Input.GetMouseButtonDown(0))
 			{
 				myWeapons [currentWeapon].OnShootDown ();
@@ -64,7 +64,7 @@ namespace TAAI
 			if (Input.GetKeyDown(KeyCode.E))
 			{
 				NextWeapon ();
-			}
+			}*/
 		}
 
 		public void UserShootDown(int _i)
