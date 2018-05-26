@@ -25,5 +25,6 @@ namespace TAAI
 		public static Manager_App appManager;
 		public static Manager_Scene scenManager;
 		public static Manager_UI uiManager;
+		public static Manager_Achievments achievmentsManager;
 	}
 }
