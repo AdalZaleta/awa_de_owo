@@ -36,16 +36,17 @@ namespace FPSBoys
 				}
 				if (Input.GetButtonDown("Fire3"))
 				{
+					DecalHandler (1);
 					Debug.Log ("Pressed X Button");
 				}
 				if (Input.GetButtonDown("R_Bumper"))
 				{
-					Manager_Static.scenManager.LoadSceneAdd (3);
+					DecalChangeHandler (0);
 					Debug.Log("Pressed Right Bumper");
 				}
 				if (Input.GetButtonDown("L_Bumper"))
 				{
-					Manager_Static.scenManager.LoadSceneAdd (4);
+					DecalChangeHandler (1);
 					Debug.Log("Pressed Left Bumper");
 				}
 				if (Input.GetButtonDown("Control_Start"))
@@ -80,6 +81,8 @@ namespace FPSBoys
 
 		public delegate void InputTemplate (int _id);
 
+		public InputTemplate DecalChangeHandler;
+		public InputTemplate DecalHandler;
 		public InputTemplate ShootHandler;
 		public InputTemplate ShootDownHandler;
 		public InputTemplate ShootUpHandler;
