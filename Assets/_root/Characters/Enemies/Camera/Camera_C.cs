@@ -13,7 +13,6 @@ namespace TAAI
 				if (_col.gameObject.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().lit)
 				{
 					Invoke ("Caught", 0.2f);
-					//Manager_Static.scenManager.LoadScene (3);
 				}
 			}
 		}
