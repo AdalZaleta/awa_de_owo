@@ -36,17 +36,21 @@ namespace TAAI
 				}
 				if (Input.GetButtonDown("Fire3"))
 				{
-					DecalHandler (1);
 					Debug.Log ("Pressed X Button");
+				}
+				if (Input.GetButtonDown("Control_Y"))
+				{
+					DecalHandler (1);
+					Debug.Log ("Pressed Y Button");
 				}
 				if (Input.GetButtonDown("R_Bumper"))
 				{
-					DecalChangeHandler (0);
+					DecalChangeHandler (1);
 					Debug.Log("Pressed Right Bumper");
 				}
 				if (Input.GetButtonDown("L_Bumper"))
 				{
-					DecalChangeHandler (1);
+					DecalChangeHandler (-1);
 					Debug.Log("Pressed Left Bumper");
 				}
 				if (Input.GetButtonDown("Control_Start"))

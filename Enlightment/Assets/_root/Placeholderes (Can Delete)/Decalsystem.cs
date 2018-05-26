@@ -29,9 +29,13 @@ namespace TAAI
 			Manager_Static.inputManager.DecalHandler -= PlaceDecal;
 		}
 
-		public void SetSprite(int spr_index)
+		public void SetSprite(int _i)
 		{
-			selected_spr = spr_index;
+			selected_spr += _i;
+			if (selected_spr >= sprites.Length)
+				selected_spr = 0;
+			if (selected_spr < 0)
+				selected_spr = sprites.Length - 1;
 		}
 
 		public void PlaceDecal(int _i)
@@ -40,13 +44,28 @@ namespace TAAI
 			if (Physics.Raycast(cam.transform.position, cam.transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, layerMask))
 			{
 				GameObject Graffitti = Instantiate (sprites [selected_spr], (hit.point) + (hit.normal * 0.01f), Quaternion.LookRotation(hit.normal));
-				Destroy (Graffitti, 5.0f);
+				StartCoroutine (FadeAway (Graffitti, 1.0f));
 				Debug.DrawRay (transform.position, transform.TransformDirection (Vector3.forward) * hit.distance, Color.red);
 				Debug.Log ("Hit " + hit.collider.gameObject.name);
 			}
 			else
 			{
 				Debug.Log ("Didn't Hit Shit Boi");
+			}
+		}
+
+		IEnumerator FadeAway(GameObject graf, float _alpha)
+		{
+			graf.GetComponent<SpriteRenderer> ().color = new Color (255, 255, 255, _alpha);
+			if (_alpha > 0)
+			{
+				yield return new WaitForSeconds (0.1f);
+				_alpha -= 0.01f;
+				StartCoroutine (FadeAway (graf, _alpha));
+			}
+			else
+			{
+				Destroy (graf);
 			}
 		}
 	}
