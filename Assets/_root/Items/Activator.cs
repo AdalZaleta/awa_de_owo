@@ -8,7 +8,7 @@ public class Activator : MonoBehaviour {
 	public bool isActive = true;
 
 	public void HitByRay() {
-		objectoToActive.SetActive (!isActive);
+		objectoToActive.GetComponent<Light>().enabled = !isActive;
 		isActive = !isActive;
 	}
 }

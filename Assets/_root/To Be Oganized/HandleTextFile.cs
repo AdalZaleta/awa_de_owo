@@ -14,6 +14,7 @@ namespace TAAI
 		void Start () {
 			if (gameObject.CompareTag("Hitman"))
 			{
+				Debug.Log ("DEATH IMMINENT");
 				reWriteLine ("1", 1);
 			}
 			readTextFile (_targetPath);
