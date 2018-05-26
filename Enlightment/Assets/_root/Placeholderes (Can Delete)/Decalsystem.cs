@@ -41,7 +41,7 @@ namespace TAAI
 		public void PlaceDecal(int _i)
 		{
 			RaycastHit hit;
-			if (Physics.Raycast(cam.transform.position, cam.transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, layerMask))
+			if (Physics.Raycast(cam.transform.position, cam.transform.TransformDirection(Vector3.forward), out hit, 5.0f, layerMask))
 			{
 				GameObject Graffitti = Instantiate (sprites [selected_spr], (hit.point) + (hit.normal * 0.01f), Quaternion.LookRotation(hit.normal));
 				StartCoroutine (FadeAway (Graffitti, 1.0f));

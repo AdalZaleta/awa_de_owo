@@ -7,6 +7,8 @@ namespace TAAI
 {	
 	public class Manager_Input : MonoBehaviour {
 
+		private string[] Commands;
+
 		void Awake()
 		{
 			//ASIGNO AL MANAGER STATIC CUAL VA A SER EL INPUT MANGER
@@ -81,6 +83,16 @@ namespace TAAI
 			//LOS INPUTS DE CUANDO ESTES EN END_GAME
 			if (Manager_Static.appManager.currentState == AppState.end_game) {
 			}
+		}
+
+		void AddCommand(string commName)
+		{
+			Commands.SetValue (commName, Commands.Length);
+		}
+
+		void CommandsList()
+		{
+			
 		}
 
 		public delegate void InputTemplate (int _id);
