@@ -25,47 +25,50 @@ namespace FPSBoys
 			if (Manager_Static.appManager.currentState == AppState.gameplay) {
 				Manager_Static.uiManager.ShowTime ();
 				if (Input.GetAxisRaw ("Left_Trigger") <= -0.5f) {
-					//Inteto manda a llamr a un escript de player controler
 					SendMessage ("aim", true, SendMessageOptions.DontRequireReceiver);
 				}
 				if (Input.GetAxisRaw ("Right_Trigger") <= -0.7f) {
-					//Debug.Log ("El valor del gatillo derecho es: " + Input.GetAxisRaw ("Right_Trigger"));
 					GamePad.SetVibration (PlayerIndex.One, 0.25f, 0.25f);
-					ShootHandler (1);
-					//Debug.Log ("Se llamo al Handler");
-					//GamePad.SetVibration (1, 0.5, 0.5);
 				}
 				if (Input.GetAxisRaw ("Right_Trigger") > -0.5f) {
 					GamePad.SetVibration (PlayerIndex.One, 0f, 0f);
-					//GamePad.SetVibration (1, 0.5, 0.5);
 				}
 				if (Input.GetButtonDown("Fire3"))
 				{
-					ThrowHandler (1);
 					Debug.Log ("Pressed X Button");
 				}
 				if (Input.GetButtonDown("R_Bumper"))
 				{
-					SwitchWeaponHandler (1);
+					Manager_Static.scenManager.LoadSceneAdd (3);
 					Debug.Log("Pressed Right Bumper");
 				}
 				if (Input.GetButtonDown("L_Bumper"))
 				{
-					SwitchWeaponHandler(-1);
+					Manager_Static.scenManager.LoadSceneAdd (4);
 					Debug.Log("Pressed Left Bumper");
 				}
-				if (Input.GetKeyDown (KeyCode.JoystickButton7)) 
+				if (Input.GetButtonDown("Control_Start"))
 				{
+					Manager_Static.scenManager.LoadSceneAdd (2);
 					Manager_Static.appManager.currentState = AppState.pause_menu;
+					Debug.Log ("Paused");
 				}
 			}
 
 			//LOS INPUTS DE CUANDO ESTES EN GAME_MENU
-			if (Manager_Static.appManager.currentState == AppState.pause_menu) {
+			else if (Manager_Static.appManager.currentState == AppState.pause_menu) {
 				Manager_Static.uiManager.PauseTime ();
 				if (Input.GetKeyDown (KeyCode.JoystickButton6)) 
 				{
+					Manager_Static.scenManager.UnLoadScene (2);
 					Manager_Static.appManager.currentState = AppState.gameplay;
+					Debug.Log ("UnPaused");
+				}
+				if (Input.GetButtonDown("Control_Start"))
+				{
+					Manager_Static.scenManager.UnLoadScene (2);
+					Manager_Static.appManager.currentState = AppState.gameplay;
+					Debug.Log ("UnPaused");
 				}
 			}
 
