@@ -86,6 +86,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 114853200644196814}
+  botonr: {fileID: 114019396142470446, guid: b1cbc7fffa80d7a41a3c5640be33fac4, type: 2}
   buttonText: {fileID: 114913498754453492}
   playerSide: X
 --- !u!114 &114853200644196814
