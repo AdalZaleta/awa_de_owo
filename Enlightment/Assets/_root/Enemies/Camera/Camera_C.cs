@@ -13,6 +13,7 @@ namespace TAAI
 			if (Physics.Raycast (transform.position, transform.TransformDirection(Vector3.right), out hit, Mathf.Infinity) && hit.transform.CompareTag("Player")) {
 				Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.right) * hit.distance, Color.yellow);
 				Debug.Log ("Estoy tocando : " + hit.transform.name);
+				Manager_Static.scenManager.LoadScene (3);
 			}
 		}
 	}
