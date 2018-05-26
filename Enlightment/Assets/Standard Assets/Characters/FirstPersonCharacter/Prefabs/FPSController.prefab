@@ -343,6 +343,23 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100000}
   m_IsPrefabParent: 1
+--- !u!1 &1013946913673966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4199008255244268}
+  - component: {fileID: 20286516920192322}
+  - component: {fileID: 124882900096887596}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1045087653889478
 GameObject:
   m_ObjectHideFlags: 1
@@ -487,14 +504,14 @@ Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1848529804284868}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 13.02, z: 0}
+  m_GameObject: {fileID: 1520086919199710}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400000}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4967277838715892
 Transform:
   m_ObjectHideFlags: 1
@@ -627,6 +644,13 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!33 &33296301595323942
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1520086919199710}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &33451235212482748
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -696,6 +720,9 @@ MonoBehaviour:
   sprites:
   - {fileID: 1693105705871154, guid: 26aa93771dc154e44ab784460a39da66, type: 2}
   - {fileID: 1235133729777934, guid: c1ed19909a31ea84689b1b0d757f5b01, type: 2}
+  - {fileID: 1200337592303574, guid: 1e497427b22d0ad488639a8bd26a133c, type: 2}
+  - {fileID: 1340136933827388, guid: 6c25a6188e16bca41866a3a22048fff3, type: 2}
+  - {fileID: 1078543189316720, guid: 59b2cd4c835176849b39808987bad338, type: 2}
   cam: {fileID: 2000000}
   layerMask:
     serializedVersion: 2
