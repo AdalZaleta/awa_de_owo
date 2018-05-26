@@ -5,7 +5,6 @@ using UnityEngine;
 public class Item_Pickup : MonoBehaviour {
 
 	public GameObject model;
-	public Rigidbody rig;
 	private float rotSpeed = 500;
 
 	void OnTriggerEnter (Collider _col)
@@ -32,16 +31,5 @@ public class Item_Pickup : MonoBehaviour {
 		Debug.Log ("Picked Up " + gameObject.name);
 		model.GetComponent<MeshRenderer> ().material.color = Color.red;
 		Destroy (gameObject, 1.0f);
-	}
-
-	// Use this for initialization
-	void Start () {
-		rig.AddTorque (Vector3.forward * rotSpeed);
-		rig.AddTorque (Vector3.up * rotSpeed);
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
 	}
 }
