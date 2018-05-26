@@ -39,7 +39,7 @@ namespace FPSBoys
 			RaycastHit hit;
 			if (Physics.Raycast(cam.transform.position, cam.transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, layerMask))
 			{
-				GameObject Graffitti = Instantiate (sprites [selected_spr], (hit.point) + (hit.normal * 0.1f), Quaternion.LookRotation(hit.normal));
+				GameObject Graffitti = Instantiate (sprites [selected_spr], (hit.point) + (hit.normal * 0.01f), Quaternion.LookRotation(hit.normal));
 				Destroy (Graffitti, 5.0f);
 				Debug.DrawRay (transform.position, transform.TransformDirection (Vector3.forward) * hit.distance, Color.red);
 				Debug.Log ("Hit " + hit.collider.gameObject.name);
