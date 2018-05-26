@@ -23,6 +23,7 @@ namespace TAAI
 			}
 			if (easteregg.Check())
 			{
+				
 				Manager_Static.scenManager.LoadSceneAdd (4);
 				Debug.Log ("EASTER EGG BOI");
 			}

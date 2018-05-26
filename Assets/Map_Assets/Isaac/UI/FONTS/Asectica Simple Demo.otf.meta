@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: fa6a753dc9cc99048b883dd6190d6d48
+timeCreated: 1527336142
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Asectica Simple Demo
+  fontNames:
+  - Asectica Simple Demo
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
