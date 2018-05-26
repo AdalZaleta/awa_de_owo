@@ -44,7 +44,7 @@ public class Weapon_Raycast : Weapon_Main {
 	public override void ExecuteShoot()
 	{
 		base.ExecuteShoot ();
-		anim.SetTrigger ("LightShot");
+		//anim.SetTrigger ("LightShot");
 		if (Physics.Raycast(spawnPoint.position, spawnPoint.forward, out hitInfo))
 		{
 			if (hitInfo.collider.gameObject.GetComponent<Rigidbody>())

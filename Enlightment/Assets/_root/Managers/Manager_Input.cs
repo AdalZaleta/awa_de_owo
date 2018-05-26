@@ -29,6 +29,7 @@ namespace FPSBoys
 				}
 				if (Input.GetAxisRaw ("Right_Trigger") <= -0.7f) {
 					GamePad.SetVibration (PlayerIndex.One, 0.25f, 0.25f);
+					ShootHandler (1);
 				}
 				if (Input.GetAxisRaw ("Right_Trigger") > -0.5f) {
 					GamePad.SetVibration (PlayerIndex.One, 0f, 0f);
