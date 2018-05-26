@@ -1243,10 +1243,10 @@ RectTransform:
   m_Father: {fileID: 544310045}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.29700002, y: 0.38037682}
+  m_AnchorMin: {x: 0.29700002, y: 0.39881483}
   m_AnchorMax: {x: 0.74981254, y: 0.5}
-  m_AnchoredPosition: {x: -2.100006, y: -0.5999985}
-  m_SizeDelta: {x: -14, y: -13}
+  m_AnchoredPosition: {x: -2.100006, y: -3.0999985}
+  m_SizeDelta: {x: -14, y: -8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1303377790
 MonoBehaviour:
