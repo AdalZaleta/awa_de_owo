@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f3c0dcbe49942904fadf4e78b666c885
+timeCreated: 1527336138
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: boldyear
+  fontNames:
+  - boldyear
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
