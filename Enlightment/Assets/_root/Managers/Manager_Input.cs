@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using XInputDotNetPure;
 
-namespace FPSBoys
+namespace TAAI
 {	
 	public class Manager_Input : MonoBehaviour {
 

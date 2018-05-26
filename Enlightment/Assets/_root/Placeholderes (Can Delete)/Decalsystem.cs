@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace FPSBoys
+namespace TAAI
 {
 	public class Decalsystem : MonoBehaviour {
 
