@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using XInputDotNetPure;
 
 public class Game_Controller : MonoBehaviour {
 
@@ -22,6 +23,7 @@ public class Game_Controller : MonoBehaviour {
 		SetGameControllerReferenceOnButtons ();
 		playerSide = "X";
 		moveCount = 0;
+		GamePad.SetVibration (PlayerIndex.One, 0.0f, 0.0f);
 	}
 
 	void SetGameControllerReferenceOnButtons()
