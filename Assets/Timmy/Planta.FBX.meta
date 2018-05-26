@@ -1,22 +1,15 @@
 fileFormatVersion: 2
-guid: 98e1140828cf8c747b0035a6f4c89e6a
-timeCreated: 1527328375
+guid: b3bb4e7c040e3e64c985355d9374e044
+timeCreated: 1527338232
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
-    100000: agua
-    100002: Dispensador
-    100004: //RootNode
-    400000: agua
-    400002: Dispensador
-    400004: //RootNode
-    2300000: agua
-    2300002: Dispensador
-    3300000: agua
-    3300002: Dispensador
-    4300000: Dispensador
-    4300002: agua
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: planta
     9500000: //RootNode
   materials:
     importMaterials: 1

@@ -1,42 +1,15 @@
 fileFormatVersion: 2
-guid: cf2ab31790bdfa34796b5afbf4854aa2
-timeCreated: 1527328382
+guid: 59e20dfa626956c4c91ede1246ec09f9
+timeCreated: 1527338214
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
-    100000: agua
-    100002: Box001
-    100004: Cone001
-    100006: Dispensador
-    100008: objeto
-    100010: Plane001
-    100012: //RootNode
-    400000: agua
-    400002: Box001
-    400004: Cone001
-    400006: Dispensador
-    400008: objeto
-    400010: Plane001
-    400012: //RootNode
-    2300000: agua
-    2300002: Box001
-    2300004: Cone001
-    2300006: Dispensador
-    2300008: objeto
-    2300010: Plane001
-    3300000: agua
-    3300002: Box001
-    3300004: Cone001
-    3300006: Dispensador
-    3300008: objeto
-    3300010: Plane001
-    4300000: Dispensador
-    4300002: agua
-    4300004: Box001
-    4300006: Cone001
-    4300008: objeto
-    4300010: Plane001
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: objeto
     9500000: //RootNode
   materials:
     importMaterials: 1

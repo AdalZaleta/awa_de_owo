@@ -1,32 +1,15 @@
 fileFormatVersion: 2
-guid: b3bb4e7c040e3e64c985355d9374e044
-timeCreated: 1527328380
+guid: 606c532ff638ba74c99d3bc36543235b
+timeCreated: 1527338147
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
-    100000: agua
-    100002: Box001
-    100004: Cone001
-    100006: Dispensador
-    100008: //RootNode
-    400000: agua
-    400002: Box001
-    400004: Cone001
-    400006: Dispensador
-    400008: //RootNode
-    2300000: agua
-    2300002: Box001
-    2300004: Cone001
-    2300006: Dispensador
-    3300000: agua
-    3300002: Box001
-    3300004: Cone001
-    3300006: Dispensador
-    4300000: Dispensador
-    4300002: agua
-    4300004: Box001
-    4300006: Cone001
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Box001
     9500000: //RootNode
   materials:
     importMaterials: 1
