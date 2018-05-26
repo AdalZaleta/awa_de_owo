@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class TicTacToe : MonoBehaviour {
 
 	public Button button;
+	public Button botonr;
 	public Text buttonText;
 	public string playerSide;
 
@@ -15,6 +17,7 @@ public class TicTacToe : MonoBehaviour {
 	{
 		buttonText.text = gameController.GetPlayerSide ();
 		button.interactable = false;
+		botonr.Select ();
 		gameController.EndTurn ();
 	}
 

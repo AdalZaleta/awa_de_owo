@@ -94,6 +94,7 @@ public class Game_Controller : MonoBehaviour {
 		playerSide = "X";
 		moveCount = 0;
 		gameOverPanel.SetActive (false);
+	
 
 		SetBoardInteractable (true);
 

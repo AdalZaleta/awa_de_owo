@@ -23,3 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_root/Scenes/Post-Ending.unity
     guid: abbf32fc493d102429b4c39b7fc637df
+  - enabled: 1
+    path: Assets/_root/Scenes/root.unity
+    guid: 40b7448f7498fbc4fb81d369418296a5

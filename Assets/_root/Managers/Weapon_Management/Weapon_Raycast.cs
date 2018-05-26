@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Weapon_Raycast : Weapon_Main {
 
@@ -47,6 +48,9 @@ public class Weapon_Raycast : Weapon_Main {
 		//anim.SetTrigger ("LightShot");
 		if (Physics.Raycast(spawnPoint.position, spawnPoint.forward, out hitInfo))
 		{
+			if (hitInfo.transform.CompareTag ("PC")) {
+				SceneManager.LoadScene (6);
+			}
 			if (hitInfo.transform.CompareTag ("Switch")) {
 				hitInfo.transform.GetComponent<Activator> ().HitByRay ();
 			}
