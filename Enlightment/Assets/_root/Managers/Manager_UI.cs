@@ -18,13 +18,15 @@ namespace FPSBoys
 		public void PauseTime()
 		{
 			Time.timeScale = 0.0f;
-			minimenu.SetActive (true);
+			if (minimenu)
+				minimenu.SetActive (true);
 		}
 
 		public void ShowTime()
 		{
 			Time.timeScale = TimeScale;
-			minimenu.SetActive (false);
+			if (minimenu)
+				minimenu.SetActive (false);
 		}
 	}
 }
