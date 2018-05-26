@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using XInputDotNetPure;
 
 public class Game_Controller : MonoBehaviour {
@@ -110,5 +111,10 @@ public class Game_Controller : MonoBehaviour {
 		for (int i = 0; i < buttonList.Length; i++) {
 			buttonList [i].GetComponentInParent<Button> ().interactable = toggle;
 		}
+	}
+
+	public void ExitScene()
+	{
+		SceneManager.LoadScene (1);
 	}
 }
