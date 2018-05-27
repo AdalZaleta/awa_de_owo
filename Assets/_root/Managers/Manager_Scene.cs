@@ -45,9 +45,5 @@ namespace TAAI
 		{
 			SceneManager.LoadScene (nextSceneId);
 		}
-=======
->>>>>>> parent of e030501... todos
-=======
->>>>>>> parent of e030501... todos
 	}
 }
