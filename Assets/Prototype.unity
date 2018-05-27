@@ -330,6 +330,90 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 606c532ff638ba74c99d3bc36543235b, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &52970254 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 606c532ff638ba74c99d3bc36543235b, type: 3}
+  m_PrefabInternal: {fileID: 63536494}
+--- !u!82 &52970255
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 52970254}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 892e465c17bc541418ff32b976a5cedd, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.55
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1001 &63536494
 Prefab:
   m_ObjectHideFlags: 0
@@ -3929,6 +4013,10 @@ Prefab:
       propertyPath: m_Depth
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabParent: 0
@@ -4455,7 +4543,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 07a546b34dfe2f849803386039fcd910, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.385
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -4463,8 +4551,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 1.01
+  MinDistance: 0.31539917
+  MaxDistance: 0.49192238
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -4493,7 +4581,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -5552,8 +5640,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 57
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 1.01
+  MinDistance: 0.26464653
+  MaxDistance: 0.41975975
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -5582,7 +5670,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -5725,16 +5813,16 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 892e465c17bc541418ff32b976a5cedd, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.461
-  m_Pitch: 1
+  m_Volume: 0.096
+  m_Pitch: -0.65
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 99
   DopplerLevel: 0.32
-  MinDistance: 1
-  MaxDistance: 1.01
+  MinDistance: 0.4861784
+  MaxDistance: 0.6026449
   Pan2D: -0.195
   rolloffMode: 0
   BypassEffects: 0
@@ -5763,7 +5851,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -5787,7 +5875,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 0.515
+      value: 0.23
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -10756,7 +10844,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 07a546b34dfe2f849803386039fcd910, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.436
+  m_Volume: 0.453
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -10764,8 +10852,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 27
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 1.01
+  MinDistance: 0.44633865
+  MaxDistance: 0.6509857
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -10794,7 +10882,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -11547,8 +11635,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 0.28
-  MinDistance: 1
-  MaxDistance: 2
+  MinDistance: 0.49365544
+  MaxDistance: 0.85710764
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -11577,7 +11665,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
