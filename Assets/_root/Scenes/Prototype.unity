@@ -359,19 +359,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4739370607317754, guid: 5d12da1206bfc2d49abd55dfe32abf5e, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0.0000000033346663
+      value: -0.0000000033346665
       objectReference: {fileID: 0}
     - target: {fileID: 4739370607317754, guid: 5d12da1206bfc2d49abd55dfe32abf5e, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.98829174
+      value: -0.9882918
       objectReference: {fileID: 0}
     - target: {fileID: 4739370607317754, guid: 5d12da1206bfc2d49abd55dfe32abf5e, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0.000000021599813
+      value: 0.000000021599815
       objectReference: {fileID: 0}
     - target: {fileID: 4739370607317754, guid: 5d12da1206bfc2d49abd55dfe32abf5e, type: 2}
       propertyPath: m_LocalRotation.w
-      value: -0.15257584
+      value: -0.15257585
       objectReference: {fileID: 0}
     - target: {fileID: 4739370607317754, guid: 5d12da1206bfc2d49abd55dfe32abf5e, type: 2}
       propertyPath: m_RootOrder
@@ -5359,19 +5359,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4429035467899320, guid: a28d211e183d872468760cb27cc30d67, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0.0026115107
+      value: 0.002611511
       objectReference: {fileID: 0}
     - target: {fileID: 4429035467899320, guid: a28d211e183d872468760cb27cc30d67, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.707102
+      value: -0.70710206
       objectReference: {fileID: 0}
     - target: {fileID: 4429035467899320, guid: a28d211e183d872468760cb27cc30d67, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0.7071019
+      value: -0.70710194
       objectReference: {fileID: 0}
     - target: {fileID: 4429035467899320, guid: a28d211e183d872468760cb27cc30d67, type: 2}
       propertyPath: m_LocalRotation.w
-      value: -0.0026115105
+      value: -0.0026115107
       objectReference: {fileID: 0}
     - target: {fileID: 4429035467899320, guid: a28d211e183d872468760cb27cc30d67, type: 2}
       propertyPath: m_RootOrder
