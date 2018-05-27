@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Escenario/Isaac/UI/Animations.meta~HEAD.meta
 guid: c64c5d553577a7748bfb4aedf413bc26
 timeCreated: 1527389551
+=======
+guid: 2c944aeca2d77874e8f1c10dab6934d1
+timeCreated: 1527391323
+>>>>>>> 837fab8a557ff0aa22a03ae522f9bdd0fb2d408f:Assets/Escenario/Isaac/UI/Animations.meta~HEAD.meta
 licenseType: Free
 DefaultImporter:
   userData: 
