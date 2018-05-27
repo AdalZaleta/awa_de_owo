@@ -46,9 +46,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
 		private bool canTake;
 		private float pickTime = 3.0f;
 		public bool lit = false;
+<<<<<<< HEAD
 
 		private bool itemTaken = false;
 
+=======
+>>>>>>> parent of e030501... todos
 		GameObject itemSelected;
 		public GameObject manager;
 
@@ -109,7 +112,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
 				{
 					itemSelected.SendMessage("PickUp", SendMessageOptions.DontRequireReceiver);
 					pickTime = 3.0f;
-					isTaken = true;
 				}
 				else
 				{
