@@ -115,6 +115,6 @@ public class Game_Controller : MonoBehaviour {
 
 	public void ExitScene()
 	{
-		SceneManager.LoadScene (1);
+		SceneManager.LoadScene (3);
 	}
 }
