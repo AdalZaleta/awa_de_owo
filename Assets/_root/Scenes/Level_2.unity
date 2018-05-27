@@ -1739,7 +1739,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectoToActive: {fileID: 857448917}
   isActive: 1
-  key: {fileID: 0}
+  key: {fileID: 1690087437}
 --- !u!4 &97150737 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 48839c393a7bc944c96b174c05919d5c, type: 3}
@@ -16393,7 +16393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectoToActive: {fileID: 1926167681}
   isActive: 1
-  key: {fileID: 0}
+  key: {fileID: 1690087437}
 --- !u!4 &1438923341 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 48839c393a7bc944c96b174c05919d5c, type: 3}
@@ -18250,6 +18250,11 @@ Transform:
   m_PrefabParentObject: {fileID: 4337384781616212, guid: a0a1c4e89f911b94c984dd9064f4e071,
     type: 2}
   m_PrefabInternal: {fileID: 654643819}
+--- !u!1 &1690087437 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1339802849154348, guid: 277c2d677dca6ac4c81ecd675c7c3f5c,
+    type: 2}
+  m_PrefabInternal: {fileID: 806356967}
 --- !u!1 &1698354041 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1211191232158698, guid: a28d211e183d872468760cb27cc30d67,
@@ -19251,7 +19256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectoToActive: {fileID: 135620050}
   isActive: 1
-  key: {fileID: 0}
+  key: {fileID: 1690087437}
 --- !u!4 &1810452795 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 48839c393a7bc944c96b174c05919d5c, type: 3}
