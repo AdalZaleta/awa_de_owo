@@ -9,6 +9,8 @@ TagManager:
   - Light
   - PC
   - Hitman
+  - Door
+  - Core
   layers:
   - Default
   - TransparentFX

@@ -46,8 +46,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
 		private bool canTake;
 		private float pickTime = 3.0f;
 		public bool lit = false;
-		public bool isTaken = false;
+
+		private bool itemTaken = false;
+
 		GameObject itemSelected;
+		public GameObject manager;
 
 		void OnTriggerEnter(Collider _col)
 		{
@@ -55,6 +58,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
 				lit = true;
 			} else
 				lit = false;
+
+			if (_col.gameObject.CompareTag("Core") && itemTaken)
+			{
+				manager.SendMessage ("LoadNextLevel", SendMessageOptions.DontRequireReceiver);
+			}
 		}
 
 		void OnTriggerStay(Collider _col)
@@ -90,6 +98,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 		public void setItem(GameObject obj)
 		{
 			itemSelected = obj;
+			itemTaken = true;
 		}
 
 		public void PickItem()

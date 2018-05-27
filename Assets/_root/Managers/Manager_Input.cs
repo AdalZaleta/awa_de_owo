@@ -77,7 +77,11 @@ namespace TAAI
 			}
 
 			//LOS INPUTS DE CUANDO ESTES EN END_GAME
-			if (Manager_Static.appManager.currentState == AppState.end_game) {
+			else if (Manager_Static.appManager.currentState == AppState.end_game) {
+				if (Input.GetButtonDown("Control_Start"))
+				{
+					Manager_Static.scenManager.LoadScene (1);
+				}
 			}
 		}
 

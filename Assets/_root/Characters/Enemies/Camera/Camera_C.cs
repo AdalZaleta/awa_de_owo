@@ -37,7 +37,7 @@ namespace TAAI
 
 		void Caught()
 		{
-			Manager_Static.scenManager.LoadScene (3);
+			Manager_Static.scenManager.LoadScene (5);
 		}
 	}
 }

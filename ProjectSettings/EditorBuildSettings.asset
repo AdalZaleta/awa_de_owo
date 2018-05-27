@@ -5,12 +5,30 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/_root/Scenes/MainMenu.unity
-    guid: 1e3116158dc8a6e4698c11ed381e0770
-  - enabled: 1
-    path: Assets/_root/Scenes/Prototype.unity
+  - enabled: 0
+    path: Assets/TrabajoDeArtistas/Isaac/UI/Main Menu.unity
+    guid: 30ffef08b7add2140b8b8f17167574fd
+  - enabled: 0
+    path: Assets/TrabajoDeArtistas/Isaac/UI/about.unity
+    guid: 43d8a5925c2f6024d893cd445691d245
+  - enabled: 0
+    path: Assets/Prototype.unity
     guid: 915756f6f160b2b439c7a55aaa41fe27
+  - enabled: 1
+    path: "Assets/_root/Scenes/Introducci\xF3n.unity"
+    guid: 9b4edc758aba6354fad6c65c52187532
+  - enabled: 1
+    path: Assets/_root/Scenes/Main Menu.unity
+    guid: 06e8d3f0d5c431c4ea3e1de9459836d0
+  - enabled: 1
+    path: Assets/_root/Scenes/about.unity
+    guid: ec4ac5e116a6bac4badcb4fa3ad1b313
+  - enabled: 1
+    path: Assets/_root/Scenes/Level_1.unity
+    guid: e3a4f983ce15e614ba7b95f8e36f6942
+  - enabled: 1
+    path: Assets/_root/Scenes/Level_2.unity
+    guid: a383f487931765e489a0851c4e0a4ddc
   - enabled: 1
     path: Assets/_root/Scenes/PauseMenu.unity
     guid: c5b0da9ffbd2b50488a82cfbbf35e41c
