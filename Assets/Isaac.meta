@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Isaac.meta
+guid: d23406c300ad5e247ad4657c209fb643
+folderAsset: yes
+timeCreated: 1527335414
+=======
 guid: 57d34bd15a886e9478d9d17a6d0bd439
 folderAsset: yes
 timeCreated: 1527377475
+>>>>>>> 4fb3c4e0101f345f8f72b76e6850191c8b58f419:Assets/Isaac.meta
 licenseType: Free
 DefaultImporter:
   userData: 
