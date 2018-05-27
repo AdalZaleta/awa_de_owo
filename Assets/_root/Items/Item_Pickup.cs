@@ -5,7 +5,6 @@ using UnityEngine;
 public class Item_Pickup : MonoBehaviour {
 
 	public GameObject model;
-	private float rotSpeed = 500;
 
 	void OnTriggerEnter (Collider _col)
 	{

@@ -9,6 +9,7 @@ public class Activator : MonoBehaviour {
 	public GameObject key;
 
 	public void HitByRay() {
+		gameObject.GetComponent<Renderer> ().material.color = Color.red;
 		objectoToActive.GetComponent<Light>().enabled = !isActive;
 		isActive = !isActive;
 		key.SendMessage ("unLock", gameObject, SendMessageOptions.DontRequireReceiver);
