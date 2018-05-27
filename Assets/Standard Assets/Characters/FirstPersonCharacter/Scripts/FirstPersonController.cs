@@ -46,12 +46,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
 		private bool canTake;
 		private float pickTime = 3.0f;
 		public bool lit = false;
-<<<<<<< HEAD
 
 		private bool itemTaken = false;
-
-=======
->>>>>>> parent of e030501... todos
 		GameObject itemSelected;
 		public GameObject manager;
 
@@ -106,7 +102,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
 		public void PickItem()
 		{
-			if (canTake) 
+			if (canTake)
 			{
 				if (pickTime <= 0)
 				{
@@ -117,7 +113,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 				{
 					pickTime -= Time.deltaTime;
 				}
-			} 
+			}
 			else
 				Debug.Log ("nothing to pick up");
 
@@ -352,4 +348,3 @@ namespace UnityStandardAssets.Characters.FirstPerson
         }
     }
 }
-		
