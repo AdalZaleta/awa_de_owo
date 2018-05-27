@@ -67,7 +67,7 @@ public class Game_Controller : MonoBehaviour {
 			GameOver ();
 		}
 
-		if (moveCount >= 8) {
+		if (moveCount >= 9) {
 			GameOver ();
 		}
 
