@@ -8,6 +8,7 @@ namespace TAAI
 	public class Manager_Scene : MonoBehaviour {
 
 		public GameObject options;
+		public int nextSceneId;
 
 		void Awake()
 		{
@@ -32,6 +33,11 @@ namespace TAAI
 		public void QuitGame()
 		{
 			Application.Quit ();
+		}
+
+		public void LoadNextLevel()
+		{
+			SceneManager.LoadScene (nextSceneId);
 		}
 	}
 }
