@@ -29,12 +29,17 @@ namespace TAAI
 				if (Input.GetAxisRaw ("Left_Trigger") <= -0.5f) {
 					SendMessage ("aim", true, SendMessageOptions.DontRequireReceiver);
 				}
-				if (Input.GetAxisRaw ("Right_Trigger") <= -0.7f || Input.GetKeyDown (KeyCode.Mouse0)) {
+				if (Input.GetAxisRaw ("Right_Trigger") <= -0.7f) {
 					GamePad.SetVibration (PlayerIndex.One, 0.25f, 0.25f);
 					ShootHandler (1);
 				}
 				if (Input.GetAxisRaw ("Right_Trigger") > -0.5f) {
 					GamePad.SetVibration (PlayerIndex.One, 0f, 0f);
+				}
+				if (Input.GetButtonDown("Fire3"))
+				{
+					AchievementHandler (1);
+					Debug.Log ("Pressed X Button");
 				}
 				if (Input.GetButtonDown("Control_Y"))
 				{
