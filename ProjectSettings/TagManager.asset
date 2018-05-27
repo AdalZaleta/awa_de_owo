@@ -8,6 +8,7 @@ TagManager:
   - Light
   - PC
   - Hitman
+  - Weapon
   layers:
   - Default
   - TransparentFX
@@ -39,7 +40,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Weapon
   - 
   m_SortingLayers:
   - name: Default
