@@ -253,6 +253,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1995647130073170, guid: 4acb77e7975f84a4184cc7ad6a9e0df2, type: 2}
+      propertyPath: m_Layer
+      value: 30
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4acb77e7975f84a4184cc7ad6a9e0df2, type: 2}
   m_IsPrefabParent: 0
@@ -499,19 +503,35 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 606c532ff638ba74c99d3bc36543235b, type: 3}
       propertyPath: m_LocalRotation.x
+<<<<<<< HEAD:Assets/_root/Scenes/Prototype.unity
+      value: -0.0000000033346665
+=======
       value: 0.50142473
+>>>>>>> a399232a172e4e8b80a496d059d23fb4bb372008:Assets/TrabajoDeArtistas/Valeria/Prototype.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 606c532ff638ba74c99d3bc36543235b, type: 3}
       propertyPath: m_LocalRotation.y
+<<<<<<< HEAD:Assets/_root/Scenes/Prototype.unity
+      value: -0.9882918
+=======
       value: -0.49857125
+>>>>>>> a399232a172e4e8b80a496d059d23fb4bb372008:Assets/TrabajoDeArtistas/Valeria/Prototype.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 606c532ff638ba74c99d3bc36543235b, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD:Assets/_root/Scenes/Prototype.unity
+      value: 0.000000021599815
+=======
       value: 0.50144213
+>>>>>>> a399232a172e4e8b80a496d059d23fb4bb372008:Assets/TrabajoDeArtistas/Valeria/Prototype.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 606c532ff638ba74c99d3bc36543235b, type: 3}
       propertyPath: m_LocalRotation.w
+<<<<<<< HEAD:Assets/_root/Scenes/Prototype.unity
+      value: -0.15257585
+=======
       value: 0.49855378
+>>>>>>> a399232a172e4e8b80a496d059d23fb4bb372008:Assets/TrabajoDeArtistas/Valeria/Prototype.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 606c532ff638ba74c99d3bc36543235b, type: 3}
       propertyPath: m_RootOrder
@@ -3801,11 +3821,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4281618278354674, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4967277838715892, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4972365638028352, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_RootOrder
@@ -3830,6 +3850,24 @@ Prefab:
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.8420898
+      objectReference: {fileID: 0}
+    - target: {fileID: 20428202908363332, guid: 5e9e851c0e142814dac026a256ba2ac0,
+        type: 2}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251638206420694, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20428202908363332, guid: 5e9e851c0e142814dac026a256ba2ac0,
+        type: 2}
+      propertyPath: m_Depth
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_CullingMask.m_Bits
+      value: 3221225215
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
@@ -7407,6 +7445,72 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d7e6072eabbdd4b4e9400953ffee4291, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1380558818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1380558819}
+  - component: {fileID: 1380558820}
+  m_Layer: 0
+  m_Name: Camara de arma
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1380558819
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1380558818}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1861541317}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &1380558820
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1380558818}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 3
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 2
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 1073741824
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
 --- !u!1 &1384846281
 GameObject:
   m_ObjectHideFlags: 0
@@ -9686,19 +9790,35 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4314710980106802, guid: 2388bf6c33e085340ac75d9e0c1e2e65, type: 2}
       propertyPath: m_LocalRotation.x
+<<<<<<< HEAD:Assets/_root/Scenes/Prototype.unity
+      value: 0.002611511
+=======
       value: -0.5035671
+>>>>>>> a399232a172e4e8b80a496d059d23fb4bb372008:Assets/TrabajoDeArtistas/Valeria/Prototype.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4314710980106802, guid: 2388bf6c33e085340ac75d9e0c1e2e65, type: 2}
       propertyPath: m_LocalRotation.y
+<<<<<<< HEAD:Assets/_root/Scenes/Prototype.unity
+      value: -0.70710206
+=======
       value: -0.49640733
+>>>>>>> a399232a172e4e8b80a496d059d23fb4bb372008:Assets/TrabajoDeArtistas/Valeria/Prototype.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4314710980106802, guid: 2388bf6c33e085340ac75d9e0c1e2e65, type: 2}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD:Assets/_root/Scenes/Prototype.unity
+      value: -0.70710194
+=======
       value: -0.49640718
+>>>>>>> a399232a172e4e8b80a496d059d23fb4bb372008:Assets/TrabajoDeArtistas/Valeria/Prototype.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4314710980106802, guid: 2388bf6c33e085340ac75d9e0c1e2e65, type: 2}
       propertyPath: m_LocalRotation.w
+<<<<<<< HEAD:Assets/_root/Scenes/Prototype.unity
+      value: -0.0026115107
+=======
       value: 0.5035671
+>>>>>>> a399232a172e4e8b80a496d059d23fb4bb372008:Assets/TrabajoDeArtistas/Valeria/Prototype.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4314710980106802, guid: 2388bf6c33e085340ac75d9e0c1e2e65, type: 2}
       propertyPath: m_RootOrder
@@ -10669,6 +10789,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a0a1c4e89f911b94c984dd9064f4e071, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &1861541317 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  m_PrefabInternal: {fileID: 714985828}
 --- !u!1 &1867506832
 GameObject:
   m_ObjectHideFlags: 0
