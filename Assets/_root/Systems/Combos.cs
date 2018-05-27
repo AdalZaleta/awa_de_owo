@@ -9,6 +9,7 @@ namespace TAAI
 		private KeyCombo falconPunch = new KeyCombo(new string[] {"down", "right","right"});
 		private KeyCombo falconKick = new KeyCombo(new string[] {"down", "right","Fire1"});
 		private KeyCombo easteregg = new KeyCombo(new string[] {"left", "right", "left", "right", "Right_Trigger", "Right_Trigger", "Control_Y"});
+		private KeyCombo OGkonami = new KeyCombo(new string[] {"up", "up", "down", "down", "left", "right", "left", "right", "Control_B", "Control_A", "Control_Start"});
 
 		void Update () {
 			if (falconPunch.Check())
@@ -26,6 +27,10 @@ namespace TAAI
 				
 				Manager_Static.scenManager.LoadSceneAdd (4);
 				Debug.Log ("EASTER EGG BOI");
+			}
+			if (OGkonami.Check())
+			{
+				Debug.Log ("KONAMI MODE ENGAGED !");
 			}
 		}
 	}
