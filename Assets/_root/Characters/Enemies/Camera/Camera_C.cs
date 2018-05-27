@@ -28,6 +28,10 @@ namespace TAAI
 			{
 				Debug.DrawRay (camSpawn.transform.position, (_col.transform.position - camSpawn.transform.position) * hit.distance, Color.blue);
 				Debug.Log ("Hit " + hit.collider.gameObject.name);
+				if (hit.collider.gameObject.CompareTag("Player"))
+				{
+					Caught ();
+				}
 			}
 		}
 

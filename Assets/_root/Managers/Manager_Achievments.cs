@@ -20,12 +20,11 @@ namespace TAAI
 		void Awake()  
 		{
 			Manager_Static.achievmentsManager = this;
-			Manager_Static.inputManager.AchievementHandler += Achieve;
 		}
 
-		void OnDisable()
+		void OnEnable()
 		{
-			Manager_Static.inputManager.AchievementHandler -= Achieve;
+			Manager_Static.inputManager.AchievementHandler += Achieve;
 		}
 
 		void OnDestroy()
