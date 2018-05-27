@@ -11,7 +11,6 @@ namespace TAAI
 
 		void Awake()
 		{
-			Debug.Log ("Me llamaron soy el inputManager");
 			//ASIGNO AL MANAGER STATIC CUAL VA A SER EL INPUT MANGER
 			Manager_Static.inputManager = this;
 		}
