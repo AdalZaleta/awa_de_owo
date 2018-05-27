@@ -503,19 +503,35 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 606c532ff638ba74c99d3bc36543235b, type: 3}
       propertyPath: m_LocalRotation.x
+<<<<<<< HEAD:Assets/_root/Scenes/Prototype.unity
+      value: -0.0000000033346665
+=======
       value: 0.50142473
+>>>>>>> a399232a172e4e8b80a496d059d23fb4bb372008:Assets/TrabajoDeArtistas/Valeria/Prototype.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 606c532ff638ba74c99d3bc36543235b, type: 3}
       propertyPath: m_LocalRotation.y
+<<<<<<< HEAD:Assets/_root/Scenes/Prototype.unity
+      value: -0.9882918
+=======
       value: -0.49857125
+>>>>>>> a399232a172e4e8b80a496d059d23fb4bb372008:Assets/TrabajoDeArtistas/Valeria/Prototype.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 606c532ff638ba74c99d3bc36543235b, type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD:Assets/_root/Scenes/Prototype.unity
+      value: 0.000000021599815
+=======
       value: 0.50144213
+>>>>>>> a399232a172e4e8b80a496d059d23fb4bb372008:Assets/TrabajoDeArtistas/Valeria/Prototype.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 606c532ff638ba74c99d3bc36543235b, type: 3}
       propertyPath: m_LocalRotation.w
+<<<<<<< HEAD:Assets/_root/Scenes/Prototype.unity
+      value: -0.15257585
+=======
       value: 0.49855378
+>>>>>>> a399232a172e4e8b80a496d059d23fb4bb372008:Assets/TrabajoDeArtistas/Valeria/Prototype.unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 606c532ff638ba74c99d3bc36543235b, type: 3}
       propertyPath: m_RootOrder
@@ -10027,19 +10043,35 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4314710980106802, guid: 2388bf6c33e085340ac75d9e0c1e2e65, type: 2}
       propertyPath: m_LocalRotation.x
+<<<<<<< HEAD:Assets/_root/Scenes/Prototype.unity
+      value: 0.002611511
+=======
       value: -0.5035671
+>>>>>>> a399232a172e4e8b80a496d059d23fb4bb372008:Assets/TrabajoDeArtistas/Valeria/Prototype.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4314710980106802, guid: 2388bf6c33e085340ac75d9e0c1e2e65, type: 2}
       propertyPath: m_LocalRotation.y
+<<<<<<< HEAD:Assets/_root/Scenes/Prototype.unity
+      value: -0.70710206
+=======
       value: -0.49640733
+>>>>>>> a399232a172e4e8b80a496d059d23fb4bb372008:Assets/TrabajoDeArtistas/Valeria/Prototype.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4314710980106802, guid: 2388bf6c33e085340ac75d9e0c1e2e65, type: 2}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD:Assets/_root/Scenes/Prototype.unity
+      value: -0.70710194
+=======
       value: -0.49640718
+>>>>>>> a399232a172e4e8b80a496d059d23fb4bb372008:Assets/TrabajoDeArtistas/Valeria/Prototype.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4314710980106802, guid: 2388bf6c33e085340ac75d9e0c1e2e65, type: 2}
       propertyPath: m_LocalRotation.w
+<<<<<<< HEAD:Assets/_root/Scenes/Prototype.unity
+      value: -0.0026115107
+=======
       value: 0.5035671
+>>>>>>> a399232a172e4e8b80a496d059d23fb4bb372008:Assets/TrabajoDeArtistas/Valeria/Prototype.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4314710980106802, guid: 2388bf6c33e085340ac75d9e0c1e2e65, type: 2}
       propertyPath: m_RootOrder
