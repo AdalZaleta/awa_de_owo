@@ -49,7 +49,7 @@ public class Weapon_Raycast : Weapon_Main {
 		if (Physics.Raycast(spawnPoint.position, spawnPoint.forward, out hitInfo))
 		{
 			if (hitInfo.transform.CompareTag ("PC")) {
-				SceneManager.LoadScene (6);
+				SceneManager.LoadScene ("root");
 			}
 			if (hitInfo.transform.CompareTag ("Switch")) {
 				hitInfo.transform.GetComponent<Activator> ().HitByRay ();

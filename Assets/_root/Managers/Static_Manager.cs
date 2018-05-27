@@ -26,5 +26,6 @@ namespace TAAI
 		public static Manager_Scene scenManager;
 		public static Manager_UI uiManager;
 		public static Manager_Achievments achievmentsManager;
+		public static Manager_Sounds soundManger;
 	}
 }

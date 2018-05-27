@@ -46,6 +46,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 		private bool canTake;
 		private float pickTime = 3.0f;
 		public bool lit = false;
+		public bool isTaken = false;
 		GameObject itemSelected;
 
 		void OnTriggerEnter(Collider _col)
@@ -99,6 +100,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 				{
 					itemSelected.SendMessage("PickUp", SendMessageOptions.DontRequireReceiver);
 					pickTime = 3.0f;
+					isTaken = true;
 				}
 				else
 				{
