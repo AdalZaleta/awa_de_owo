@@ -38,6 +38,7 @@ namespace TAAI
 				}
 				if (Input.GetButtonDown("Fire3"))
 				{
+					AchievementHandler (1);
 					Debug.Log ("Pressed X Button");
 				}
 				if (Input.GetButtonDown("Control_Y"))
@@ -97,6 +98,7 @@ namespace TAAI
 
 		public delegate void InputTemplate (int _id);
 
+		public InputTemplate AchievementHandler;
 		public InputTemplate DecalChangeHandler;
 		public InputTemplate DecalHandler;
 		public InputTemplate ShootHandler;

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System;
 using System.IO;
 
@@ -8,17 +9,48 @@ namespace TAAI
 {
 	public class Manager_Achievments : MonoBehaviour {
 
+		public Image chiev;
+		public Text chievTit;
+
 		string _sourcePath = "Assets\\Resources\\ChievesAll.txt";
 		string _targetPath = "Assets\\Resources\\ChievesDone.txt";
+		private string[] titles = {"Achievement A", "Achievement B", "Achievement C"};
+		public Sprite[] sprites;
 
 		void Awake()  
 		{
 			Manager_Static.achievmentsManager = this;
+			Manager_Static.inputManager.AchievementHandler += Achieve;
+		}
+
+		void OnDisable()
+		{
+			Manager_Static.inputManager.AchievementHandler -= Achieve;
+		}
+
+		void OnDestroy()
+		{
+			Manager_Static.inputManager.AchievementHandler -= Achieve;
 		}
 
 		void Achieve(int _i)
 		{
 			reWriteLine ("1", _i);
+			chiev.sprite = sprites [_i - 1];
+			chievTit.text = titles [_i - 1];
+			StartCoroutine (ShowChiev (1.0f));
+		}
+
+		IEnumerator ShowChiev(float _alpha)
+		{
+			chiev.color = new Color (255, 255, 255, _alpha);
+			chievTit.color = new Color (0, 0, 0, _alpha);
+			if (_alpha > 0)
+			{
+				_alpha -= 0.02f;
+				yield return new WaitForSeconds (0.02f);
+				StartCoroutine (ShowChiev (_alpha));
+			}				
 		}
 
 		public void readTextFile(string file_path)

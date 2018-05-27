@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 0a542885a160cf644a7191f816f765cc
+timeCreated: 1527336142
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Asectica Outline Demo
+  fontNames:
+  - Asectica Outline Demo
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
