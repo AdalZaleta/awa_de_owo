@@ -24,10 +24,18 @@ namespace TAAI
 
 		void OnEnable()
 		{
+			if (Manager_Static.inputManager == null) {
+				Debug.Log ("Hola mundo!..");
+			}
 			Manager_Static.inputManager.AchievementHandler += Achieve;
 		}
 
 		void OnDestroy()
+		{
+			Manager_Static.inputManager.AchievementHandler -= Achieve;
+		}
+
+		void OnDesbale()
 		{
 			Manager_Static.inputManager.AchievementHandler -= Achieve;
 		}
