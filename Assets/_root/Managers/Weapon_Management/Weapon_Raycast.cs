@@ -58,7 +58,7 @@ public class Weapon_Raycast : Weapon_Main {
 			{
 				hitInfo.collider.gameObject.GetComponent<Rigidbody> ().AddForce (spawnPoint.forward * force);
 			}
-			Debug.Log("Hitting " + hitInfo.collider.gameObject);
+			//Debug.Log("Hitting " + hitInfo.collider.gameObject);
 			hitInfo.collider.gameObject.SendMessage ("ReceiveDmg", 1, SendMessageOptions.DontRequireReceiver);
 			Debug.DrawLine (spawnPoint.position, hitInfo.point, Color.red);
 			StartCoroutine (DrawLine ());

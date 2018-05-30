@@ -310,6 +310,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1995647130073170, guid: 4acb77e7975f84a4184cc7ad6a9e0df2, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4acb77e7975f84a4184cc7ad6a9e0df2, type: 2}
   m_IsPrefabParent: 0
@@ -4826,6 +4830,15 @@ Prefab:
       propertyPath: manager
       value: 
       objectReference: {fileID: 955686722}
+    - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_CullingMask.m_Bits
+      value: 4294966527
+      objectReference: {fileID: 0}
+    - target: {fileID: 20428202908363332, guid: 5e9e851c0e142814dac026a256ba2ac0,
+        type: 2}
+      propertyPath: m_Depth
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabParent: 0
@@ -6365,6 +6378,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 606c532ff638ba74c99d3bc36543235b, type: 3}
   m_IsPrefabParent: 0
+--- !u!4 &904864560 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  m_PrefabInternal: {fileID: 714985828}
 --- !u!1001 &915856957
 Prefab:
   m_ObjectHideFlags: 0
@@ -7832,10 +7849,6 @@ Prefab:
     - target: {fileID: 1075682055067672, guid: b2c347dc82a1a6e409b480b0370ce16d, type: 2}
       propertyPath: m_Name
       value: Common_Light (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1075682055067672, guid: b2c347dc82a1a6e409b480b0370ce16d, type: 2}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b2c347dc82a1a6e409b480b0370ce16d, type: 2}
@@ -10388,6 +10401,11 @@ Prefab:
     - target: {fileID: 4114087862978758, guid: 0b9f269fbcd9d894583c8a3808f32721, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 108382381834765418, guid: 0b9f269fbcd9d894583c8a3808f32721,
+        type: 2}
+      propertyPath: m_Intensity
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0b9f269fbcd9d894583c8a3808f32721, type: 2}
@@ -13874,6 +13892,79 @@ Transform:
   m_PrefabParentObject: {fileID: 4689363582189608, guid: d7e6072eabbdd4b4e9400953ffee4291,
     type: 2}
   m_PrefabInternal: {fileID: 1364056014}
+--- !u!1 &1892220770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1892220771}
+  - component: {fileID: 1892220773}
+  - component: {fileID: 1892220772}
+  m_Layer: 0
+  m_Name: Camera (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1892220771
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1892220770}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 904864560}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!124 &1892220772
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1892220770}
+  m_Enabled: 1
+--- !u!20 &1892220773
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1892220770}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 3
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 512
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!1001 &1909737053
 Prefab:
   m_ObjectHideFlags: 0

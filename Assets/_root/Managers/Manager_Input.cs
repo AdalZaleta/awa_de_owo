@@ -58,7 +58,7 @@ namespace TAAI
 				}
 				if (Input.GetButtonDown("Control_Start"))
 				{
-					Manager_Static.scenManager.LoadSceneAdd (2);
+					Manager_Static.scenManager.LoadSceneAdd (5);
 					Manager_Static.appManager.currentState = AppState.pause_menu;
 					Debug.Log ("Paused");
 				}
@@ -69,13 +69,13 @@ namespace TAAI
 				Manager_Static.uiManager.PauseTime ();
 				if (Input.GetKeyDown (KeyCode.JoystickButton6)) 
 				{
-					Manager_Static.scenManager.UnLoadScene (2);
+					Manager_Static.scenManager.UnLoadScene (5);
 					Manager_Static.appManager.currentState = AppState.gameplay;
 					Debug.Log ("UnPaused");
 				}
 				if (Input.GetButtonDown("Control_Start"))
 				{
-					Manager_Static.scenManager.UnLoadScene (2);
+					Manager_Static.scenManager.UnLoadScene (5);
 					Manager_Static.appManager.currentState = AppState.gameplay;
 					Debug.Log ("UnPaused");
 				}
